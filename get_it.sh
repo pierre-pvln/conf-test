@@ -1,8 +1,13 @@
-sudo -i
+#!/bin/bash
 
-cd /etc/ipconf.d
-wget https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf
+#get ipsec configuration file
+if [ ! -d "/etc/ipsec.d" ]; then
+  mkdir /etc/ipsec.d
+fi
+cd /etc/ipsec.d
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf
 
+#get initialization script
 cd ~
-wget https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh
 
