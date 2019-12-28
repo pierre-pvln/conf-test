@@ -25,3 +25,7 @@ Or if more info is needed
 ```
 sudo ipsec auto -status
 ```
+Shutdown tunnel
+```
+sudo ipsec auto --down <<connectionname>>
+```
