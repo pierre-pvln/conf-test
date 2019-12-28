@@ -2,12 +2,11 @@
 
 #get ipsec configuration file
 if [ ! -d "/etc/ipsec.d" ]; then
-  mkdir /etc/ipsec.d
+  sudo mkdir /etc/ipsec.d
 fi
-cd /etc/ipsec.d
-wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf
+sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf -O /etc/ipsec.d/toLIL.conf
 
 #get initialization script
 cd ~
-wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh -O init.sh
 
