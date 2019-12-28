@@ -10,3 +10,5 @@ sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toL
 cd ~
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh -O init.sh
 chmod +x init.sh
+
+#DONE
