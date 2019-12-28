@@ -13,3 +13,15 @@ Then download required files and settings to subsequent directories
 ```
 ./init.sh
 ```
+Then (re)start the required services
+```
+./start.sh
+```
+To check services
+```
+sudo service ipsec status
+```
+Or if more info is needed
+```
+sudo ipsec auto -status
+```
