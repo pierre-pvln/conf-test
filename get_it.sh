@@ -11,4 +11,7 @@ cd ~
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh -O init.sh
 chmod +x init.sh
 
+# get override configuration
+sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/90-override.conf -O /etc/sysctl.d/90-override.conf
+
 #DONE
