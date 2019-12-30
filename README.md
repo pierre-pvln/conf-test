@@ -29,3 +29,7 @@ Shutdown tunnel
 ```
 sudo ipsec auto --down <<connectionname>>
 ```
+# Debuging and testing
+```
+ipsec verify
+```
