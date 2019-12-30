@@ -30,6 +30,7 @@ Shutdown tunnel
 sudo ipsec auto --down <<connectionname>>
 ```
 # Debuging and testing
+Use sudo to also include .secrets files
 ```
-ipsec verify
+sudo ipsec verify
 ```
