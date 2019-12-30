@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#get ipsec configuration file
-if [ ! -d "/etc/ipsec.d" ]; then
-  sudo mkdir /etc/ipsec.d
-fi
+#get ipsec baseline configuration file
+sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/ipsec.conf -O /etc/ipsec.conf
+
+#get specifiec ipsec configuration file
 sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf -O /etc/ipsec.d/toLIL.conf
 
 #get initialization script

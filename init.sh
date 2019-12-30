@@ -7,7 +7,7 @@
 sudo echo "0" | sudo tee /proc/sys/net/ipv4/conf/*/send_redirects
 sudo echo "0" | sudo tee /proc/sys/net/ipv4/conf/*/accept_redirects
 #
-# disable tThe rp_filter setting which controls the built-in spoof protection of the Linux kernel.
+# disable the rp_filter setting which controls the built-in spoof protection of the Linux kernel.
 #
 sudo echo "0" | sudo tee /proc/sys/net/ipv4/conf/*/rp_filter
 #
