@@ -4,7 +4,7 @@
 sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/ipsec.conf -O /etc/ipsec.conf
 
 #get specifiec ipsec configuration file
-sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf -O /etc/ipsec.d/toLIL.conf
+sudo wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/toLIL.conf -O /etc/ipsec.d/myconns.conf
 
 #get initialization script
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/init.sh -O ~/init.sh
