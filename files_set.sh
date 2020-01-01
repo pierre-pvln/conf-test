@@ -15,6 +15,5 @@ sudo cp 90-override.conf /etc/sysctl.d/90-override.conf
 
 sudo cp sysctl.conf /etc/sysctl.conf
 # and load data
-sudo sysctl -p
 
 #DONE
