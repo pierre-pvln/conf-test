@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/vpn
+cd ~/vpn/p
 #get ipsec baseline configuration file
 sudo cp /etc/ipsec.conf ipsec.conf
 
