@@ -2,7 +2,10 @@
 Ssh to vpn server<br>
 Then get download script
 ```
-cd ~
+cd ~/vpn
+git init
+git remote add origin git@github.com:pierre-pvln/conf-test.git
+
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/get_it.sh -O get_it.sh
 chmod +x get_it.sh
 ./get_it.sh
