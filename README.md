@@ -2,7 +2,7 @@
 Ssh to vpn server<br>
 Then get download script
 ```
-sudo yum install git
+sudo yum install -y git
 mkdir ~/vpn
 cd ~/vpn
 git init
