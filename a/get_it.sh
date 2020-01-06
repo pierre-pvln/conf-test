@@ -11,6 +11,7 @@ wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/conn_A
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/init.sh -O ~/vpn/a/init.sh
 
 # get override configuration
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/sysctl.conf -O ~/vpn/a/sysctl.conf
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/90-override.conf -O ~/vpn/a/90-override.conf
 
 #get start script

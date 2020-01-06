@@ -10,4 +10,6 @@ sudo cp /etc/ipsec.d/conn_A-P.conf cd ~/vpn/a/conn_A-P.conf
 #get override configuration
 sudo cp /etc/sysctl.d/90-override.conf ~/vpn/a/90-override.conf
 
+sudo cp /etc/sysctl.conf ~/vpn/a/sysctl.conf 
+
 #DONE
