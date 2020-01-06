@@ -30,14 +30,6 @@ Then (re)start the required services
 ```
 ./start.sh
 ```
-To check services
-```
-sudo service ipsec status
-```
-Or if more info is needed
-```
-sudo ipsec auto -status
-```
 Shutdown tunnel
 ```
 sudo ipsec auto --down <<connectionname>>
