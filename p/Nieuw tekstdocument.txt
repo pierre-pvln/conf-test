@@ -1,0 +1,2 @@
+# https://github.com/nm-l2tp/NetworkManager-l2tp/wiki/Prebuilt-Packages#debian
+sudo apt install network-manager-l2tp network-manager-l2tp-gnome
