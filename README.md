@@ -42,12 +42,4 @@ Shutdown tunnel
 ```
 sudo ipsec auto --down <<connectionname>>
 ```
-# Debuging and testing
-Use sudo to also include .secrets files
-```
-sudo ipsec verify
-```
-look in logging files
-```
-cat /var/log/messages | grep ipsec
-```
+[Debug and test info](DEBUG-TEST.md)
