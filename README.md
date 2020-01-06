@@ -4,7 +4,7 @@ Then get download script for A node
 ```
 mkdir --parents ~/vpn/a
 cd ~/vpn/a
-wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/get_it.sh -O /get_it.sh
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf-test/master/a/get_it.sh -O get_it.sh
 chmod +x get_it.sh
 ./get_it.sh
 
