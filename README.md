@@ -11,7 +11,7 @@ chmod +x get_it.sh
 ```
 or for P node
 ```
-sudo yum install -y git
+sudo apt-get install -y git
 mkdir --parents ~/vpn/p
 cd ~/vpn/p
 git init
